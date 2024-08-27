@@ -318,3 +318,20 @@ time{
     text-align: center;
     color: #ffffff;
 }
+
+/* Effet */
+
+.effect-1:hover {
+    border-left: 8px solid #17abb3;
+    height:50px;
+    background-color: #f5f5f5;
+}
+
+#effect-2:hover {
+    cursor: zoom-in;
+
+}
+
+.effect-3:hover{
+    opacity: 0.5;
+}
