@@ -155,3 +155,126 @@ header {
     padding-right: 3.5rem;
     padding-left: 1rem;
 }
+
+/* Colonne droite et gauche placement */
+
+.container-all{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    background-color: #ffffff;
+}
+
+.container-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+}
+
+hr{
+    border-color: rgba(227, 227, 227, 0.3);
+}
+
+#justify {
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: medium;
+}
+
+
+
+/* Colonne droite placement contenu */
+
+.profil{
+    text-indent: 15px;
+    flex-wrap: wrap;
+    font-size: 95%;
+}
+
+
+#training-dwwm, #training-dcg, #training-bts,
+#training-bac, #gc, #sc, #ges-c, #cc, #hdc, #s-c {
+    width: 45%;
+    font-size: medium;
+    display: inline-block;
+    margin-bottom: -50px;
+    padding-left: 0.5rem;
+
+}
+
+.marg-top {
+    margin-top: -30px;
+}
+
+
+/* Colonne gauche */
+
+.container-left{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    flex-direction: column;
+    background-color: rgba(51, 51, 51, 0.1);
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+/* Compétences */
+
+#html, #css, #js, #php {
+    display: inline-block;
+    width: 45%;
+    font-size: medium;
+    line-height: 2px;
+
+}
+
+.star-html, .star-css, .star-js, .star-php {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+}
+
+
+/* Langues */
+
+#fr, #en, #es{
+    display: inline-block;
+    width: 30%;
+    font-size: medium;
+    line-height: 1px;
+}
+
+#lm, #pro, #notions{
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+    line-height: 1px;
+}
+
+/* Qualités */
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+li::before {
+    content: "\25AA";
+    color: #17abb3;
+    display: inline-block;
+    margin-right: 0.5rem;
+
+}
+
+#auto, #orga, #perse, #crea, #game, #watch, #sport, #graph {
+    display: flex;
+    margin-left: -2.2rem;
+}
