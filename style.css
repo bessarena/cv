@@ -278,3 +278,43 @@ li::before {
     display: flex;
     margin-left: -2.2rem;
 }
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #17abb3;
+    width: 90%;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.space-icon{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.text-bot{
+    display: inline-block;
+    font-style: italic;
+    margin-top: -5px;
+
+}
+
+time{
+    display: inline-block;
+
+}
+
+.align{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
